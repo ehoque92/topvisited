@@ -6,6 +6,10 @@
     "default_popup": "index.html",
     "default_icon": "logo.png"
   },
+  "permissions": [
+    "topSites",
+    "history"
+  ],
   "icons": {
     "16": "logo.png",
     "48": "logo.png",

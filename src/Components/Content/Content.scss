@@ -1,0 +1,34 @@
+$primaryColor: #616161;
+$secondaryColor: white;
+$fontSize: 2rem;
+
+$btnBorder: 1px solid #616161;
+$btnPadding: 3px 10px;
+$btnRadius: 10px;
+$ctrTxtAl: center;
+$txtDec: none;
+$inBlDsp: inline-block;
+$btnFontSize: 0.8rem;
+$btnCursor: pointer;
+$tranDur: 0.4s;
+
+
+.resetAllBtn{
+  background-color: $primaryColor;
+  border: $btnBorder;
+  border-radius: $btnRadius;
+  color: $secondaryColor;
+  padding: $btnPadding;
+  text-align: $ctrTxtAl;
+  text-decoration: $txtDec;
+  display: $inBlDsp;
+  font-size: $btnFontSize;
+  cursor: $btnCursor;
+  transition-duration: $tranDur;
+}
+
+.resetAllBtn:hover{
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    border: $btnBorder;
+}
