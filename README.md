@@ -1,3 +1,9 @@
+# Ennam's Build Notes for extension
+From terminal, in the correct dir, please enter "yarn build"
+Then go to chrome://extensions/
+And then Load unpacked
+Select Build inside the directory.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

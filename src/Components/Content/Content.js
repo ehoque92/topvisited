@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import reset from "../../Images/reset.svg";
+import TopSites from "../TopSites/TopSites";
 import './Content.scss';
 
 export class Content extends Component {
@@ -9,6 +10,7 @@ export class Content extends Component {
         <p>
           <strong>Most</strong> Visited Websites:
         </p>
+        <TopSites/>
         <button className='resetAllBtn'><img src={reset} alt='reset' style={{color: "white"}}/> Reset All Counters</button>
         <hr style={{ width: "200px" }} />
       </div>
