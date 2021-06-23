@@ -1,0 +1,10 @@
+$listStyle: none;
+$paddingBtn: 5px;
+
+ul{
+    list-style-type: $listStyle;
+  }
+
+li{
+    padding-bottom: $paddingBtn;
+}
