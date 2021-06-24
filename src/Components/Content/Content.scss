@@ -12,6 +12,12 @@ $btnFontSize: 0.8rem;
 $btnCursor: pointer;
 $tranDur: 0.4s;
 
+$hrWidth: 200px;
+
+hr{
+  width: $hrWidth;
+}
+
 
 .resetAllBtn{
   background-color: $primaryColor;

@@ -12,7 +12,7 @@ export class Content extends Component {
         </p>
         <TopSites/>
         <button className='resetAllBtn'><img src={reset} alt='reset' style={{color: "white"}}/> Reset All Counters</button>
-        <hr style={{ width: "200px" }} />
+        <hr/>
       </div>
     );
   }

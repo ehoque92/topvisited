@@ -1,4 +1,3 @@
-/*global chrome*/
 import React, { Component } from "react";
 import logo from "../../Images/logo.svg";
 import reset from "../../Images/reset.svg";
@@ -7,8 +6,13 @@ import './Header.scss';
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.state = {counter: 10};
+    this.state = {counter: 10}; //for example
+    this.resetCounter = this.resetCounter.bind(this);
 
+  }
+
+  resetCounter(){
+    this.setState({counter: 0})
   }
   
   
@@ -19,8 +23,8 @@ class Header extends Component {
           <img src={logo} alt="logo" /> <strong>Top</strong>Visited
         </p>
         <p>You've visited this site</p>
-        <h2><span className="counter">{this.state.counter}</span> Times   <button className='resetBtn'><img src={reset} alt='reset' style={{color: "white"}}/> Reset</button></h2>
-        <hr style={{ width: "200px" }} />
+        <h2><span className="counter">{this.state.counter}</span> Times   <button className='resetBtn' onClick={this.resetCounter}><img src={reset} alt='reset' /> Reset</button></h2>
+        <hr /> 
       </div>
     );
   }

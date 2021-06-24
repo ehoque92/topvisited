@@ -1,3 +1,5 @@
+# node modules added: sass, react-switch
+
 # Ennam's Build Notes for extension
 From terminal, in the correct dir, please enter "yarn build"
 Then go to chrome://extensions/
